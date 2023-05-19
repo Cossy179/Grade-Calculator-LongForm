@@ -94,6 +94,7 @@ def load_data(guidance_file, assignment_dir):
             "assignment": assignment,
             "grade": grade
         })
+        
     return assignments
 
 def main():
@@ -111,11 +112,11 @@ def main():
 
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-5)
 
-    for epoch in range(10):
+    for epoch in range(2):
         print(f'Starting epoch {epoch + 1}')
         train(model, data_loader, optimizer, device)
 
-    torch.save(model.state_dict(), f'LongFormer_model.pt')
+    torch.save(model.state_dict(), f'model.pt')
 
 if __name__ == '__main__':
     main()
