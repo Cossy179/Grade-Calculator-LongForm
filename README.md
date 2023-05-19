@@ -23,6 +23,7 @@ Enjoy grading assignments with AI!
 ## Disclaimer
 
 This model is not guaranteed to provide accurate grades and should be used as a tool to assist in grading rather than a replacement for human grading.
-This is only a test model and should not be deployed for industry use. for more accurate model visit:
+This is only a test model and should not be deployed for industry use. 
+For more accurate model visit:
 
 https://github.com/Cossy179/Grade-Marker-Bert
