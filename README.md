@@ -19,3 +19,10 @@ Note: The model is currently configured to handle assignments of up to 8,000 wor
 If you want to change the model, tokenizer, or any other aspects of the training/testing process, you can do so in `train.py` and `test.py`.
 
 Enjoy grading assignments with AI!
+
+## Disclaimer
+
+This model is not guaranteed to provide accurate grades and should be used as a tool to assist in grading rather than a replacement for human grading.
+This is only a test model and should not be deployed for industry use. for more accurate model visit:
+
+https://github.com/Cossy179/Grade-Marker-Bert
